@@ -5,7 +5,7 @@
 function fetchData(callback: Function): void {
   setTimeout(() => {
     callback('peanut butter');
-  }, 1000);
+  }, 100);
 }
 
 /*
@@ -59,7 +59,7 @@ function fetchDataReject(): Promise<Error> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       reject(new Error('fetch error'));
-    }, 500);
+    }, 100);
   });
 }
 
