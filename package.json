@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.53",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.53",
     "@babel/plugin-syntax-flow": "^7.0.0-beta.53",
     "@babel/plugin-transform-flow-strip-types": "^7.0.0-beta.53",
     "@babel/preset-env": "^7.0.0-beta.53",
@@ -32,6 +33,9 @@
     "prettier": "^1.13.7"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1"
   }
 }
